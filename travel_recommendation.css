@@ -155,11 +155,26 @@ nav ul li a:hover {
 }
 
 .about-desc {
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.6); /* Creates the dark box behind text */
     padding: 20px;
     margin-bottom: 40px;
     line-height: 1.6;
     border-radius: 5px;
+}
+
+.team-container {
+    display: flex; /* Puts the team members side-by-side */
+    gap: 50px;
+    justify-content: center;
+}
+
+.team-member {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6); /* Creates the dark box for each member */
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    max-width: 250px;
 }
 
 .team-header {
@@ -167,19 +182,6 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-.team-container {
-    display: flex;
-    gap: 50px;
-}
-
-.team-member {
-    text-align: center;
-    background: rgba(0, 0, 0, 0.6);
-    padding: 20px;
-    border-radius: 10px;
-    flex: 1;
-    max-width: 250px;
-}
 
 .team-member .icon {
     width: 60px;
